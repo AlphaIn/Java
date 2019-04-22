@@ -56,7 +56,7 @@ public class EchoServer {
 				 PrintWriter out = new PrintWriter(new OutputStreamWriter(s.getOutputStream(),"UTF-8"));
 				 
 				 String line;
-				 while ((line = in.readLine() != null)) {
+				 while ((line = in.readLine()) != null) {
 					 out.println(line);
 					 out.flush();
 				 }
