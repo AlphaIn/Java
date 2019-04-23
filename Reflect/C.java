@@ -1,4 +1,4 @@
-package java.Reflect;
+package Java.Reflect;
 
 public class C {
 	public void c () {
