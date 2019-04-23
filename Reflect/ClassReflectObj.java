@@ -1,4 +1,4 @@
-package java.Reflect;
+package Java.Reflect;
 
 public class ClassReflectObj {
 	public static void main (String[] args) throws Exception {
