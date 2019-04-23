@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class ArrayApplicationDemo {
 	
 	public static void main(String[] args) {
@@ -14,5 +15,8 @@ public class ArrayApplicationDemo {
 		for(int i : arr) {
 			System.out.println(i);
 		}
+		
+		String str = Arrays.toString(arr);
+		System.out.println(str);
 	}
 }
