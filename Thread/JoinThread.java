@@ -1,4 +1,4 @@
-package java.Thread;
+package Java.Thread;
 
 public class JoinThread {
 
