@@ -1,4 +1,4 @@
-package java.Producer_Consumer;
+package Java.Producer_Consumer;
 
 import java.util.LinkedList;
 import java.util.Random;
