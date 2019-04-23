@@ -1,4 +1,4 @@
-package java.Reflect;
+package Java.Reflect;
 
 public class Student {
 	private int id;
