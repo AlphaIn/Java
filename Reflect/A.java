@@ -1,4 +1,4 @@
-package java.Reflect;
+package Java.Reflect;
 
 public class A {
 	public void a () {
