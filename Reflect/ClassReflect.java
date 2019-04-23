@@ -1,4 +1,4 @@
-import java.Reflect;
+import Java.Reflect;
 
 public class ClassReflect {
 	
