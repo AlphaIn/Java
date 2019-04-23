@@ -1,4 +1,4 @@
-package java.Reflect;
+package Java.Reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
