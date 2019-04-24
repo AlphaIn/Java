@@ -18,5 +18,36 @@ public class ArrayApplicationDemo {
 		
 		String str = Arrays.toString(arr);
 		System.out.println(str);
+		
+		//√∞≈›≈≈–Ú
+		for (int i = 1; i<arr.length; i++) {
+			for (int j = 1; j <= arr.length -i; j++ ) {
+				
+				if(arr[j - 1] > arr[j]) {
+					int temp = arr[j -1];
+					arr[j - 1] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		
+		String str1 = Arrays.toString(arr);
+		System.out.println(str1);
+		
+		int[] arr1 = {2,8,9,2,7,3,0,8,3,1,4};
+		
+		//—°‘Ò≈≈–Ú
+		for (int i = 1; i < arr1.length; i++) {
+			for(int j = i; j < arr1.length; j++) {
+				
+				if(arr1[i - 1] > arr1[j]) {
+					int temp = arr1[i -1];
+					arr1[i - 1] = arr1[j];
+					arr1[j] = temp;
+				}
+			}
+		}
+		String str2 = Arrays.toString(arr1);
+		System.out.println(str2);
 	}
 }
