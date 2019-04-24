@@ -87,5 +87,24 @@ public class ArrayApplicationDemo {
 		}
 		
 		System.out.println(mid);
+		
+		int min1 = 0;
+		int max1 = arr2.length - 1;
+		int mid1 = (min1 + max1) / 2;
+		
+		while(min1 <= max1) {
+			if(num == arr2[mid1])
+				break;
+			else if(num > arr2[mid1])
+				min1 = mid1 + 1;
+			else
+				max1 = mid1 - 1;
+			
+			mid1 = (min1 + max1) / 2;
+		}
+		if (min1 > max1)
+			mid1 = -1;
+		
+		System.out.println(mid1);
 	}
 }
