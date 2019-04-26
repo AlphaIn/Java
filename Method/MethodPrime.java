@@ -16,7 +16,7 @@ public class MethodPrime {
 		if(num % 2 == 0)
 			return false;
 		
-		for(int i = 3; i<= num / 2; i++){
+		for(int i = 3; i<= num / 2; i += 2){
 			if(num % i == 0){
 				return false;
 			}
